@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+
+
+{% block content %}
+
+<style>
+    /* Custom Styles */
+    /* Title style */
+    .blog-title {
+      color: #333;
+    }
+
+    /* Body style */
+    .blog-body {
+        text-align: justify;
+      line-height: 1.6;
+    }
+  </style>
+
+
+<div class="container mx-auto px-4 py-8">
+    <div class="max-w-2xl mx-auto">
+      <h1 class="text-3xl font-bold text-center blog-title mb-4">Blog Title</h1>
+      <div class="prose prose-lg blog-body">
+        <p>This is the body of the blog post. It can be as long as you need it to be.</p>
+        <p>Feel free to add more paragraphs, images, or any other content you want.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pretium ex ut velit interdum, non pharetra lacus tristique. Fusce id risus sed mi convallis pharetra vel non leo.</p>
+        <p>Proin quis ipsum condimentum, bibendum quam non, facilisis lectus. Suspendisse potenti. Aenean et tellus at sem scelerisque venenatis nec a libero. Fusce mattis tincidunt massa, a tempus arcu.</p>
+        <p>Nullam a tortor ut justo sodales tincidunt. Aliquam hendrerit felis eu mi tempor, non viverra ipsum ullamcorper. Donec pulvinar massa nec libero tincidunt, nec facilisis ante vehicula.</p>
+        <p>Phasellus finibus felis nec sapien tincidunt, sit amet rhoncus sem vehicula. Integer a ultricies elit. Duis mattis rhoncus arcu, non pharetra lectus tempus nec.</p>
+      </div>
+    </div>
+  </div>
+
+    
+{% endblock content %}
+    
